@@ -72,19 +72,18 @@ Topology:
 
 ![image](./Task%20Screenshots/Star_Topology.png)
 
-## Task 1 (In Progress)
+## Task 2 (In Progress)
 
 1. Used the same VPC as previously, but it was configured to have multiple subnets in different availability zones:
-	1. `Room2-Part2-1` in `eu-nort-1a`
-	2. `Room2-Part2-2` in `eu-nort-1b`
-	3. `Room2-Part2-3` in `eu-nort-1c`
+	1. `Room2-Part2-1` in `eu-north-1a`
+	2. `Room2-Part2-2` in `eu-north-1b`
+	3. `Room2-Part2-3` in `eu-north-1c`
 2. Created 3 VPCs, each of which are in the appropriate subnet.
 
 
 Challenges:
 
 - Had issues with VPC limits, so it was necessary to find a different way to create a mesh network.
-- 
 
 Pings:
 
