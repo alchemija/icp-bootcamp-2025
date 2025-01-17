@@ -72,13 +72,15 @@ Topology:
 
 ![image](./Task%20Screenshots/Star_Topology.png)
 
-## Task 2 (In Progress)
+## Task 2
 
 1. Used the same VPC as previously, but it was configured to have multiple subnets in different availability zones:
 	1. `Room2-Part2-1` in `eu-north-1a`
 	2. `Room2-Part2-2` in `eu-north-1b`
 	3. `Room2-Part2-3` in `eu-north-1c`
 2. Created 3 VPCs, each of which are in the appropriate subnet.
+3. Due to the way the VPC works & the way that the subnets are created, the mesh network gets created automatically.
+4. Updated security rules to allow ICMP traffic from the EC2 instances in the mesh network.
 
 
 Challenges:
@@ -87,10 +89,14 @@ Challenges:
 
 Pings:
 
-
+![image](./Task%20Screenshots/Mesh_Ping.png)
 
 Configurations:
 
+![image](./Task%20Screenshots/Mesh_Route.png)
+![image](./Task%20Screenshots/Mesh_Security.png) 
+
+(Note: we used the same security group as in the 1st task, so the relevant rules are the last 3)
 
 
 Topology:
