@@ -102,3 +102,9 @@ Configurations:
 Topology:
 
 ![image](./Task%20Screenshots/Mesh_Topology.png)
+
+## Key Learnings & Observations
+1. Understood better how VPCs work and how to configure networks in AWS.
+2. Learned that AWS can simplify mesh network creation when it's in a single VPC.
+3. Got a better grasp on CIDR blocks and how to manage subnets, route tables.
+4. Improved teamwork & collaboration skills with colleagues.
