@@ -37,7 +37,7 @@ Instructions:
 ## Task 1
 
 1. Created a VPC named `Room2` to be used as a central hub with the CDR block `10.0.0.0/16`
-2. Created 3 associated subnets for the VPC:
+2. Created 4 associated subnets for the VPC:
 	1. `Room2-Public` w/ subnet CIDR block `10.0.1.0/24`
 	2. `Room2-Private1` w/ subnet CIDR block `10.0.2.0/24`
 	3. `Room2-Private2` w/ subnet CIDR block `10.0.3.0/24`
@@ -65,8 +65,35 @@ Configurations:
 ![image](./Task%20Screenshots/Star_Hub_Rules.png)
 ![image](./Task%20Screenshots/Star_NAT.png)
 ![image](./Task%20Screenshots/Star_Priv_Rules.png)
-![image](./Task%20Screenshots/Star_CIDR.png)
+![image](./Task%20Screenshots/Star_Route1.png)
+![image](./Task%20Screenshots/Star_Route2.png)
 
 Topology:
 
 ![image](./Task%20Screenshots/Star_Topology.png)
+
+## Task 1 (In Progress)
+
+1. Used the same VPC as previously, but it was configured to have multiple subnets in different availability zones:
+	1. `Room2-Part2-1` in `eu-nort-1a`
+	2. `Room2-Part2-2` in `eu-nort-1b`
+	3. `Room2-Part2-3` in `eu-nort-1c`
+2. Created 3 VPCs, each of which are in the appropriate subnet.
+
+
+Challenges:
+
+- Had issues with VPC limits, so it was necessary to find a different way to create a mesh network.
+- 
+
+Pings:
+
+
+
+Configurations:
+
+
+
+Topology:
+
+![image](./Task%20Screenshots/Mesh_Topology.png)
