@@ -56,17 +56,17 @@ Challenges faced:
 
 Pings: 
 
-[image](./Task%20Screenshots/Star_Google_Ping.png)
-[image](./Task%20Screenshots/Star_Internal_Ping.png)
+![image](./Task%20Screenshots/Star_Google_Ping.png)
+![image](./Task%20Screenshots/Star_Internal_Ping.png)
 
 Configurations:
 
-[image](./Task%20Screenshots/Star_VPC.png)
-[image](./Task%20Screenshots/Star_Hub_Rules.png)
-[image](./Task%20Screenshots/Star_NAT.png)
-[image](./Task%20Screenshots/Star_Priv_Rules.png)
-[image](./Task%20Screenshots/Star_CIDR.png)
+![image](./Task%20Screenshots/Star_VPC.png)
+![image](./Task%20Screenshots/Star_Hub_Rules.png)
+![image](./Task%20Screenshots/Star_NAT.png)
+![image](./Task%20Screenshots/Star_Priv_Rules.png)
+![image](./Task%20Screenshots/Star_CIDR.png)
 
 Topology:
 
-[image](./Task%20Screenshots/Star_Topology.png)
+![image](./Task%20Screenshots/Star_Topology.png)
