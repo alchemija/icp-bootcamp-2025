@@ -21,7 +21,7 @@ variable "instance_name" {
 
 data "aws_ami" "ubuntu" {
   most_recent = true
-  owners      = ["amazon"] # Canonical's AWS account ID
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
