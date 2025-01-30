@@ -1,0 +1,24 @@
+- name: dictionary
+  hosts: localhost
+  gather_facts: no
+
+  vars_prompt:
+    - name: secret
+      prompt: "input secret"
+      private: yes
+
+  vars:
+    personal_info:
+      name: "juste"
+      surname: "jagminaite"
+      github_username: "alchemija"
+      secret: "{{ secret }}"
+      favorite_modules:
+        - "networking"
+        - "linux"
+        - "docker"
+
+  tasks:
+    - name: display dictionary
+      debug:
+        var: personal_info

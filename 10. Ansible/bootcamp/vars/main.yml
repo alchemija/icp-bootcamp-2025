@@ -1,0 +1,5 @@
+---
+# vars file for bootcamp
+    name: "juste"
+    module_name: "networking"
+    technologies_learned: "k8s, ansible, aws"
