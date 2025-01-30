@@ -11,3 +11,4 @@ If a module is skipped, that means there was either no homework, or the assigned
 [<img src="snowflake_cmce.png" height=200>](https://achieve.snowflake.com/240d9a63-fbff-4c90-892f-9b57c38075a0#acc.9b4kn6Cs)
 [<img src="snowflake_dabw.png" height=200>](https://achieve.snowflake.com/1b0d9352-29fb-4c63-9701-a0dfba4672fe#acc.aT08EueW)
 [<img src="snowflake_dlw.png" height=200>](https://achieve.snowflake.com/e2963e27-1f9f-4313-963c-0a2bd77f509e#acc.guLepTcU)
+[<img src="snowflake_dew.png" height=200>](https://achieve.snowflake.com/1993c52e-c107-4f8e-8a4f-06d9f8693aa3#acc.5X73U9gb)
